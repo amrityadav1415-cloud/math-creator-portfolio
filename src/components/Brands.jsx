@@ -1,0 +1,59 @@
+export default function Brands() {
+
+  const brands = [
+
+    "YouTube",
+    "Instagram",
+    "Unacademy",
+    "Physics Wallah",
+    "JEE Advanced",
+    "NEET",
+    "IIT-JEE",
+    "CBSE"
+
+  ];
+
+  return (
+
+    <section className="brands-section">
+
+      <div className="brands-top">
+
+        <span className="section-label">
+          Collaborations
+        </span>
+
+        <h2 className="section-title">
+          TRUSTED BY
+          MILLIONS
+        </h2>
+
+      </div>
+
+      <div className="brands-marquee">
+
+        <div className="brands-track">
+
+          {brands.map((brand, index) => (
+
+            <div className="brand-card" key={index}>
+              {brand}
+            </div>
+
+          ))}
+
+          {brands.map((brand, index) => (
+
+            <div className="brand-card" key={`duplicate-${index}`}>
+              {brand}
+            </div>
+
+          ))}
+
+        </div>
+
+      </div>
+
+    </section>
+  );
+}
