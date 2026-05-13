@@ -2,7 +2,7 @@ export default function FooterCTA() {
 
   return (
 
-    <section className="footer-cta">
+    <section id="inquiry" className="footer-cta">
 
       <div className="footer-glow"></div>
 
@@ -11,33 +11,54 @@ export default function FooterCTA() {
       </span>
 
       <h2 className="footer-title">
-
-        LET'S MAKE
-        <br />
-        MATH VIRAL.
-
+        LET’S MAKE <br />
+        MATHS VIRAL
       </h2>
 
       <p className="footer-text">
-
         Collaborations, brand partnerships,
         educational campaigns, speaking events,
         and viral content creation.
-
       </p>
 
-      <div className="footer-actions">
+      <div className="footer-buttons">
 
-        <a href="#" className="footer-btn">
+        <a
+          href="mailto:hello@example.com"
+          className="footer-primary-btn"
+        >
           Contact Now
         </a>
 
-        <a href="#" className="footer-outline">
+        <a
+          href="#media"
+          className="footer-secondary-btn"
+        >
           View Content
         </a>
 
       </div>
 
+      <div className="footer-stats">
+
+        <div className="footer-stat-card">
+          <h3>2.4B+</h3>
+          <span>Total Views</span>
+        </div>
+
+        <div className="footer-stat-card">
+          <h3>577K+</h3>
+          <span>Followers</span>
+        </div>
+
+        <div className="footer-stat-card">
+          <h3>247+</h3>
+          <span>Viral Reels</span>
+        </div>
+
+      </div>
+
     </section>
+
   );
 }

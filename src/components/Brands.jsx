@@ -7,7 +7,7 @@ export default function Brands() {
     "Unacademy",
     "Physics Wallah",
     "JEE Advanced",
-    "NEET",
+    "UP Board",
     "IIT-JEE",
     "CBSE"
 
@@ -15,7 +15,7 @@ export default function Brands() {
 
   return (
 
-    <section className="brands-section">
+    <section id="brands" className="brands-section">
 
       <div className="brands-top">
 

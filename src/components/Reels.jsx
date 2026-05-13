@@ -24,12 +24,12 @@ export default function Reels() {
 
     {
       video: "/reel5.mp4",
-      link: "https://www.instagram.com/reel/DXjgpwGktzZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+      link: "https://www.instagram.com/reel/DXjgpwGktzZ/"
     },
 
     {
       video: "/reel6.mp4",
-      link: "https://www.instagram.com/reel/DXEyiGJktmM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+      link: "https://www.instagram.com/reel/DXEyiGJktmM/"
     },
 
     {

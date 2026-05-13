@@ -1,30 +1,11 @@
 export default function Testimonials() {
 
-  const testimonials = [
-
-    {
-      name: "Ananya Mishra",
-      role: "Senior Secondary Student",
-      text: "The learning experience feels modern, structured, and extremely engaging for students preparing academically."
-    },
-
-    {
-      name: "Aditya Raj",
-      role: "Competitive Exam Aspirant",
-      text: "The explanation style is clear, professional, and helps build strong conceptual understanding with confidence."
-    },
-
-    {
-      name: "Sneha Verma",
-      role: "Academic Learner",
-      text: "Every session feels interactive and motivating. The presentation quality makes studying much more interesting."
-    }
-
-  ];
-
   return (
 
-    <section className="testimonials-section">
+    <section
+      className="testimonials-section"
+      id="media"
+    >
 
       <div className="testimonials-top">
 
@@ -33,41 +14,48 @@ export default function Testimonials() {
         </span>
 
         <h2 className="section-title">
-          WHAT STUDENTS
-          SAY
+          WHAT STUDENTS SAY
         </h2>
 
       </div>
 
-      <div className="testimonials-grid">
+      <div className="testimonials-wrapper">
 
-        {testimonials.map((item, index) => (
+        {/* LEFT COLUMN */}
 
-          <div className="testimonial-card" key={index}>
+        <div className="testimonial-column">
 
-            <div className="quote-mark">
-              "
-            </div>
-
-            <p className="testimonial-text">
-              {item.text}
-            </p>
-
-            <div className="testimonial-user">
-
-              <h3 className="testimonial-name">
-                {item.name}
-              </h3>
-
-              <span className="testimonial-role">
-                {item.role}
-              </span>
-
-            </div>
-
+          <div className="testimonial-card">
+            <img
+              src="/comment2.jpeg"
+              alt="Comment"
+              className="testimonial-image"
+            />
           </div>
 
-        ))}
+          <div className="testimonial-card">
+            <img
+              src="/comment3.jpeg"
+              alt="Comment"
+              className="testimonial-image"
+            />
+          </div>
+
+        </div>
+
+        {/* RIGHT COLUMN */}
+
+        <div className="testimonial-column">
+
+          <div className="testimonial-card">
+            <img
+              src="/comment.jpeg"
+              alt="Comment"
+              className="testimonial-image"
+            />
+          </div>
+
+        </div>
 
       </div>
 

@@ -10,25 +10,29 @@ export default function Navbar() {
           className="nav-logo-img"
         />
 
-        <span className="logo-text">
-          The Kushwaha Sir.
-        </span>
+        <h1 className="logo-text">
+          The Kushwaha Sir <span className="logo-dot"></span>
+        </h1>
 
       </a>
 
       <ul className="nav-links">
 
         <li>
-          <a href="#social">
+          <a href="#work">
             Work
           </a>
         </li>
 
+
+
         <li>
-          <a href="#brands">
-            Brands
+          <a href="#media">
+            Media
           </a>
         </li>
+
+
 
         <li>
           <a href="#about">
@@ -36,11 +40,17 @@ export default function Navbar() {
           </a>
         </li>
 
+
+
+
+
         <li>
-          <a href="#media">
-            Media
+          <a href="#brands">
+            Brands
           </a>
         </li>
+
+        
 
         <li>
           <a href="#inquiry" className="nav-cta">

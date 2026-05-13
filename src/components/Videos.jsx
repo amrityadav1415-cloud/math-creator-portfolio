@@ -42,7 +42,7 @@ export default function Videos() {
 
   return (
 
-    <section className="videos-section">
+    <section id="media" className="videos-section">
 
       <div className="videos-top">
 
@@ -51,7 +51,7 @@ export default function Videos() {
         </span>
 
         <h2 className="section-title">
-          VIRAL MATH CONTENT
+          VIRAL MATHS CONTENT
         </h2>
 
       </div>

@@ -2,7 +2,7 @@ export default function About() {
 
   return (
 
-    <section className="about-section">
+    <section id="about" className="about-section">
 
       <div className="about-left">
 

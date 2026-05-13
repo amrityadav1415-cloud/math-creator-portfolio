@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="hero">
+    <section id="work" className="hero">
 
       <div className="math-bg"></div>
 
@@ -31,18 +31,17 @@ export default function Hero() {
         </div>
 
         <h1 className="hero-headline">
-          MAKING
-          <br />
+  MAKING <br />
 
-          <em>Math</em>
+  <span className="math-word">
+    MATHS
+  </span>
 
-          <br />
+  <br />
 
-          FEEL LIKE
-          <br />
-
-          PURE MAGIC
-        </h1>
+  FEEL LIKE <br />
+  PURE MAGIC
+</h1>
 
         <p className="hero-sub">
           Educator · Creator · Storyteller.
@@ -62,7 +61,7 @@ export default function Hero() {
           <div className="floating-badge">
 
             <div className="badge-number">
-              48.2M
+              137M+
             </div>
 
             <div className="badge-text">
