@@ -9,6 +9,10 @@ import About from "./components/About";
 import Brands from "./components/Brands";
 import Testimonials from "./components/Testimonials";
 import FooterCTA from "./components/FooterCTA";
+import FeaturedNews from "./components/FeaturedNews";
+
+
+
 
 function App() {
   return (
@@ -42,6 +46,8 @@ function App() {
 
       {/* TESTIMONIALS */}
       <Testimonials />
+
+      <FeaturedNews />
 
       {/* WORK TOGETHER */}
       <FooterCTA />

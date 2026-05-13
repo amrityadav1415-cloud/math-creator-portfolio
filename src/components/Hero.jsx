@@ -74,7 +74,7 @@ export default function Hero() {
           <div className="floating-card-2">
 
             <div className="card-label">
-              Viral Students
+              Student Reach
             </div>
 
             <div className="card-value">

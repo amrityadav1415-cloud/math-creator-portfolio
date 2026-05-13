@@ -60,7 +60,8 @@ export default function Reels() {
         </span>
 
         <h2 className="section-title">
-          VIRAL SHORTS
+          REELS THAT
+EDUCATE
         </h2>
 
       </div>

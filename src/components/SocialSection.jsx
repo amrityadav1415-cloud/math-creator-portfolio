@@ -174,7 +174,7 @@ export default function SocialSection() {
 
         <div className="mega-card">
 
-          <h4>247</h4>
+          <h4>140+</h4>
 
           <span>Viral Reels</span>
 

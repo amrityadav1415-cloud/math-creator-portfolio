@@ -52,8 +52,8 @@ export default function FooterCTA() {
         </div>
 
         <div className="footer-stat-card">
-          <h3>247+</h3>
-          <span>Viral Reels</span>
+          <h3>140+</h3>
+          <span>Viral Videos</span>
         </div>
 
       </div>
